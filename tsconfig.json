@@ -13,6 +13,8 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "baseUrl": ".",
+    "types": ["node"],
+    "skipLibCheck": true,
     "paths": {
       "@/*": ["src/*"]
     }
